@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Este es el segundo laboratorio">
+    <title></title>
+</head>
+<body>
+    <h1>Alumno y contraseña</h1>
+    <form id= "formulario" action="" method="GET" onsubmit="return validar()">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <div>
+                <label for="CUI">Ingrese su nombre</label>
+                <input type="number" id="CUI" name="CUI" placeholder="Escriba su CUI" maxlength="50">
+            </div>         
+            <div>
+                <label for="Contraseña">Ingrese sus apellidos</label>
+                <input type="password" id="contraseña" name="contraseña" maxlength="50">
+            </div>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar"/>
+        </p>
+    </form>
+    <script defer type="text/javascript" src="validar.js"></script>    
+</body>
+</html>
